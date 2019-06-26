@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Elmish.WPF.Dynamic", "Elmish.WPF.Dynamic\Elmish.WPF.Dynamic.fsproj", "{36200D09-B55B-461F-9590-DDF8193FC343}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Elmish.WPF.TestApp", "Elmish.WPF.TestApp\Elmish.WPF.TestApp.fsproj", "{81CA8CCE-54D4-4760-AA8B-CB7C138EA1E3}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.WPF.Dynamic.Generator", "Elmish.WPF.Dynamic.Generator\Elmish.WPF.Dynamic.Generator.fsproj", "{70E931F7-23E9-47FA-B455-5A65BBB5A051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36200D09-B55B-461F-9590-DDF8193FC343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36200D09-B55B-461F-9590-DDF8193FC343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36200D09-B55B-461F-9590-DDF8193FC343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36200D09-B55B-461F-9590-DDF8193FC343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CA8CCE-54D4-4760-AA8B-CB7C138EA1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CA8CCE-54D4-4760-AA8B-CB7C138EA1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CA8CCE-54D4-4760-AA8B-CB7C138EA1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CA8CCE-54D4-4760-AA8B-CB7C138EA1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E931F7-23E9-47FA-B455-5A65BBB5A051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E931F7-23E9-47FA-B455-5A65BBB5A051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E931F7-23E9-47FA-B455-5A65BBB5A051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E931F7-23E9-47FA-B455-5A65BBB5A051}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5BEB0EB-255C-4396-A1FB-CBB0DBC6C582}
+	EndGlobalSection
+EndGlobal

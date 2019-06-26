@@ -1,0 +1,200 @@
+﻿{
+  "assemblies": [
+    "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+    "PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+    "PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+  ],
+  "outputNamespace": "Elmish.WPF.Dynamic",
+  "outputPath": "../../../../Elmish.WPF.Dynamic/GeneratedNodes.fs",
+  "globallyIgnoredTypes": [
+    "System.Windows.Data.CollectionContainer",
+    "System.Windows.Data.CollectionViewSource",
+    "System.Windows.Interop.InteropBitmap",
+    "System.Windows.Navigation.PageFunctionBase",
+    "System.Windows.Interop.HwndHost",
+    "System.Windows.Data.BindingBase",
+    "System.Windows.Data.BindingGroup",
+    "System.Windows.Media.Effects.BitmapEffect",
+    "System.Windows.Media.Effects.BitmapEffectInput",
+    "System.Windows.Media.Imaging.BitmapImage",
+    "System.Windows.Ink.GestureRecognizer",
+    "System.Windows.TriggerBase",
+    "System.Windows.TriggerAction",
+    "System.Windows.Media.HostVisual",
+    "System.Windows.Controls.AdornedElementPlaceholder",
+    "System.Windows.Controls.ContentPresenter",
+    "System.Windows.Controls.ItemsPresenter",
+    "System.Windows.Controls.Primitives.DataGridCellsPresenter",
+    "System.Windows.Controls.Primitives.DataGridColumnHeadersPresenter",
+    "System.Windows.Controls.Primitives.GridViewRowPresenterBase",
+    "System.Windows.Controls.Primitives.DataGridRowsPresenter",
+    "System.Windows.Controls.UserControl",
+    "System.ComponentModel.DesignerProperties",
+    "System.Windows.Markup.XmlAttributeProperties",
+    "System.Windows.Controls.ListView",
+    "System.Windows.Controls.ListViewItem",
+    "System.Windows.Controls.ViewBase",
+    "System.Windows.Controls.GridViewColumn",
+    "System.Windows.Controls.GridViewColumnHeader",
+    "System.Windows.Input.InputBinding",
+    "System.Windows.Controls.DataGrid",
+    "System.Windows.Controls.DataGridColumn",
+    "System.Windows.Controls.Primitives.DataGridColumnHeader",
+    "System.Windows.Controls.Primitives.DataGridRowHeader",
+    "System.Windows.Controls.DataGridCell",
+    "System.Windows.Controls.DataGridRow",
+    "System.Windows.Controls.DataGridCellsPanel",
+    "System.Windows.NameScope"
+
+  ],
+  "globallyIgnoredPropertyTypes": [
+    "System.Windows.Markup.MarkupExtension",
+    "System.Windows.FrameworkTemplate",
+    "System.Windows.Controls.DataTemplateSelector",
+    "System.Windows.Input.InputBindingCollection",
+    "System.Windows.Input.CommandBindingCollection",
+    "System.Windows.Input.ICommand",
+    "System.Windows.Markup.XmlLanguage",
+    "System.Windows.Controls.ItemContainerTemplateSelector"
+  ],
+  "ignoredProperties": [
+    "CommandParameter",
+    "CommandTarget",
+    "DataContext",
+    "DataContextChanged",
+    "UsesItemContainerTemplate",
+    "System.Windows.FrameworkContentElement.Name",
+    "System.Windows.FrameworkElement.Name",
+    "System.Windows.Media.Animation.Timeline.Name",
+    "System.Windows.Media.Animation.BeginStoryboard.Name",
+    "System.Windows.Controls.ListBox.SelectedItems",
+    "System.Windows.Controls.Primitives.MultiSelector.SelectedItems",
+    "System.Windows.Controls.ItemsControl.ItemsSource",
+    "System.Windows.UIElement.Uid",
+    "System.Windows.Controls.HeaderedContentControl.HeaderStringFormat",
+    "System.Windows.Controls.HeaderedItemsControl.HeaderStringFormat",
+    "System.Windows.Controls.TabControl.ContentStringFormat",
+    "System.Windows.Controls.Primitives.Selector.SelectedIndex",
+    "System.Windows.Controls.Primitives.Selector.SelectedItem",
+    "System.Windows.Controls.Primitives.Selector.SelectedValue",
+    "System.Windows.Controls.Primitives.Selector.SelectedValuePath",
+    "System.Windows.Controls.Primitives.Selector.IsSynchronizedWithCurrentItem",
+    "System.Windows.Controls.TreeView.SelectedValuePath"
+  ],
+  "collectionItemTypeMapping": [
+    {
+      "collectionType": "System.Windows.Controls.UIElementCollection",
+      "itemType": "System.Windows.UIElement"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.BooleanKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.BooleanKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.ByteKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.ByteKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.CharKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.CharKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.ColorKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.ColorKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.DecimalKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.DecimalKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.DoubleKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.DoubleKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.Int16KeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.Int16KeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.Int32KeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.Int32KeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.Int64KeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.Int64KeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.MatrixKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.MatrixKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.ObjectKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.ObjectKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.Point3DKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.Point3DKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.PointKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.PointKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.QuaternionKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.QuaternionKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.RectKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.RectKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.Rotation3DKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.Rotation3DKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.SingleKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.SingleKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.SizeKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.SizeKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.StringKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.StringKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.ThicknessKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.ThicknessKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.Vector3DKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.Vector3DKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.VectorKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.VectorKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Media.Animation.BooleanKeyFrameCollection",
+      "itemType": "System.Windows.Media.Animation.BooleanKeyFrame"
+    },
+    {
+      "collectionType": "System.Windows.Documents.LinkTargetCollection",
+      "itemType": "System.Windows.Documents.LinkTarget"
+    },
+    {
+      "collectionType": "System.Windows.Data.CollectionView",
+      "itemType": "System.Object"
+    }
+  ],
+  "propertyItemTypeMapping": [
+    {
+      "property": "System.Windows.VisualStateGroup.States",
+      "itemType": "System.Windows.VisualState"
+    },
+    {
+      "property": "System.Windows.VisualStateGroup.Transitions",
+      "itemType": "System.Windows.VisualTransition"
+    }
+  ]
+}

@@ -105,7 +105,7 @@ TODOs
 
 ### Primary challenges
 
-* Get virtualization to work. For inspiration, see https://github.com/fsprojects/Fabulous/issues/455. Must probably change from `ItemsControl.Items` to `ItemsControl.ItemsSource`, use `ObservableCollection` and templates, and create some helper types.
+* Get virtualization to work. For inspiration, see [fsprojects/Fabulous#455](fsprojects/Fabulous/issues/455). Must probably change from `ItemsControl.Items` to `ItemsControl.ItemsSource`, use `ObservableCollection` and templates, and create some helper types.
 * Determine if some functionality is only available with commands, and if so, add them and/or create wrappers/helpers to allow idiomatic Elmish usage
 
 ### Other challenges
